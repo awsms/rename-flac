@@ -77,7 +77,7 @@ def fetch_metadata(filepath):
 def rename(scheme, dirname, filename, args):
     """Renames the files."""
     filepath = os.path.join(dirname, filename)
-    new_filename = scheme % fetch_metadata(filepath) + ".flac"
+    new_filename = (scheme % fetch_metadata(filepath) + ".flac").replace("/", "／")
     if new_filename == filename:
         if args.verbose:
             print('"%s" is already named correctly' % filename)
