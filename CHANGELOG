@@ -1,0 +1,26 @@
+----- version 2.2.0 -----
+* port to argparse
+
+----- version 2.1.1 -----
+* add a manpage
+* drop python3.5 support
+* add some unit tests
+
+----- version 2.1.0 -----
+* Validate <directory>
+* Implement CI (lint + tests)
+* Write a setup.py
+* Change the name of the module to rename_flac.py (PEP8)
+
+----- version 2.0.1 -----
+* Add a new tag (composer)
+* Fix the missing metadata failure bug
+
+----- version 2.0 -----
+* Now in Python3
+
+----- version 1.1 -----
+* A bunch of small fixes
+
+----- version 1.0 -----
+* Initial commit
